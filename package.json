@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build && npm run start",
+		"build": "vite build",
 		"preview": "vite preview",
 		"start": "node build/index.js",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
